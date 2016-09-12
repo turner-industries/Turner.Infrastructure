@@ -48,6 +48,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exceptions\BusinessRuleException.cs" />
+    <Compile Include="Exceptions\BusinessRuleViolation.cs" />
     <Compile Include="Extensions\ContainerExtensions.cs" />
     <Compile Include="Logging\ILogger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
