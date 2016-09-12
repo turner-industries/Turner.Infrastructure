@@ -5,7 +5,7 @@
     <version>1.0.0</version>
     <authors>Turner Industries Group, LLC</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Turner.Infrastructure</description>
+    <description>Turner.Infrastructure contains interfaces and classes that are shared between most Turner Industries Group projects.</description>
   </metadata>
   <files>
     <file src="bin\Release\Turner.Infrastructure.dll" target="lib" />
