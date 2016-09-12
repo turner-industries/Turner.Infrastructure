@@ -6,10 +6,6 @@
     <authors>Turner Industries Group, LLC</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Turner.Infrastructure</description>
-	<dependencies>
-      <dependency id="FluentValidation" version="6.2.1.0" />
-      <dependency id="SimpleInjector" version="3.2.2" />
-    </dependencies>
   </metadata>
   <files>
     <file src="bin\Release\Turner.Infrastructure.dll" target="lib" />

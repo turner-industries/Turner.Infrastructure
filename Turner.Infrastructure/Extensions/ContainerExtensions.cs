@@ -1,6 +1,4 @@
-﻿using FluentValidation;
-using SimpleInjector;
-using System.Reflection;
+﻿using SimpleInjector;
 
 namespace Turner.Infrastructure.Extensions
 {
@@ -8,7 +6,6 @@ namespace Turner.Infrastructure.Extensions
     {
         public static void ConfigureInfrastructure(this Container container)
         {
-            container.Register(typeof(IValidator<>), new[] { Assembly.GetCallingAssembly() });
         }
     }
 }
